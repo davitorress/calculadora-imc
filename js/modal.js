@@ -8,9 +8,6 @@ export const Modal = {
 	},
 	close() {
 		this.wrapper.classList.remove("open");
-
-		inputWeight.value = "";
-		inputHeight.value = "";
 	},
 };
 
